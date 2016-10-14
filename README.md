@@ -162,7 +162,39 @@
 ## 三、创建型设计模式
 
 ### 1、简单工厂 SimpleFactory
-意图：解决具备相同父类外观的子类产品实例化问题
+**意图：**
+
+解决具备相同父类外观的子类产品实例化问题
+
+**代码原型：**
+
+产品父类：Product
+
+```java
+class Product {}
+```
+
+产品子类：ProductA、ProductB
+
+```java
+class ProductA extends Product {}
+class ProductB extends Product {}
+```
+
+简单工厂类（静态方法工厂类）：
+
+```
+class SimpleFactory {
+    static Product getProduct(String productName){
+        switch (productName){
+            case "A": return new ProductA();
+            case "B": return new ProductB();
+            default: return null;
+        }
+    }
+}
+```
+
 
 ### 2、工厂方法 FactoryMethod
 意图：将子类产品实例化延迟到更小一级的子类工厂去实现

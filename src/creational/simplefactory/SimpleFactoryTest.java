@@ -10,8 +10,11 @@ import static org.junit.Assert.*;
  */
 public class SimpleFactoryTest {
 
+    // 创建子类产品A
     private Product pa = SimpleFactory.getProduct("A");
+    // 创建子类产品B
     private Product pb = SimpleFactory.getProduct("B");
+    // 创建子类产品C（在简单工厂代码原型中并未定义，所以获取null）
     private Product pc = SimpleFactory.getProduct("C");
 
     @Test
