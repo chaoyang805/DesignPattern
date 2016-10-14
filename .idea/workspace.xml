@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b742aac-e123-46a7-ae59-0ee69dadd7d8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational/simplefactory/SimpleFactory.java" afterPath="$PROJECT_DIR$/src/creational/simplefactory/SimpleFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational/simplefactory/SimpleFactoryTest.java" afterPath="$PROJECT_DIR$/src/creational/simplefactory/SimpleFactoryTest.java" />
-    </list>
+    <list default="true" id="8b742aac-e123-46a7-ae59-0ee69dadd7d8" name="Default" comment="" />
     <ignored path="DesignPattern.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -707,7 +703,7 @@
       <option name="presentableId" value="Default" />
       <updated>1476407840791</updated>
       <workItem from="1476407844812" duration="3090000" />
-      <workItem from="1476411291932" duration="1007000" />
+      <workItem from="1476411291932" duration="1032000" />
     </task>
     <servers />
   </component>
@@ -744,7 +740,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4097000" />
+    <option name="totallyTimeSpent" value="4122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="449" y="197" width="1211" height="793" extended-state="0" />

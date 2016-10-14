@@ -183,7 +183,7 @@ class ProductB extends Product {}
 
 简单工厂类（静态方法工厂类）：
 
-```
+```java
 class SimpleFactory {
     static Product getProduct(String productName){
         switch (productName){
